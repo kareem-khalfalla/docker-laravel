@@ -9,7 +9,9 @@
 
 
 
-> In the php container run this commands in case you face storage or logs access permission denied.
+In-case you faced storage or logs access permission denied.
+![permissions-error](https://user-images.githubusercontent.com/67461927/125365772-28caf300-e375-11eb-9d9a-a64444d66c0e.png)
+
 
 `chmod -R gu+w storage`
 
@@ -24,7 +26,7 @@
 <hr style="border:2px solid gray"> </hr>
 
 > In-order to interact with the **artisan** container:  
-> `docker-compose run --rm artisan cache:clear`.
+> `docker-compose run --rm artisan cache:clear`
 
 
 

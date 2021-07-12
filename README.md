@@ -20,6 +20,7 @@ In-case you faced storage or logs access permission denied.
 `php artisan cache:clear`
 
 
+<hr style="border:2px solid gray"> </hr>
 
 
 # Artisan Service

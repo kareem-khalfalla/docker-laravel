@@ -37,7 +37,9 @@ services:
     depends_on: 
       - mysql
     working_dir: /var/www/html
-    entrypoint: ["/var/www/html/artisan"]
+    # this entry point will works after you install the laravel project,
+    # if the project already exists turn this line on.
+    # entrypoint: ["/var/www/html/artisan"]
 
 
   node:

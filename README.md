@@ -23,7 +23,7 @@
 # Artisan Service
 <hr style="border:2px solid gray"> </hr>
 
-> In-order to interact with the **artisan** container: 
+> In-order to interact with the **artisan** container:  
 > `docker-compose run --rm artisan cache:clear`.
 
 
@@ -33,7 +33,7 @@
 # Composer Service
 <hr style="border:2px solid gray"> </hr>
 
-> In-order to interact with the **composer** container:
+> In-order to interact with the **composer** container:  
 > `docker-compose run --rm composer install`
 
 
@@ -43,5 +43,5 @@
 # Node Service
 <hr style="border:2px solid gray"> </hr>
 
-> In-order to interact with the **node** container:
+> In-order to interact with the **node** container:  
 > `docker-compose run --rm node npm install`

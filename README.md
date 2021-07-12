@@ -9,7 +9,7 @@
 
 
 
-In-case you faced storage or logs access permission denied.
+~~In-case you faced storage or logs access permission denied.~~
 ![permissions-error](https://user-images.githubusercontent.com/67461927/125365772-28caf300-e375-11eb-9d9a-a64444d66c0e.png)
 
 
@@ -17,7 +17,9 @@ In-case you faced storage or logs access permission denied.
 
 `chmod -R guo+w storage`
 
-`php artisan cache:clear`
+~~If-not work this will need some clear cache try to interact with the artisan container and run~~
+`cache:clear`
+
 
 
 <hr style="border:2px solid gray"> </hr>

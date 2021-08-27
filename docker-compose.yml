@@ -46,7 +46,7 @@ services:
             # MYSQL_ALLOW_EMPTY_PASSWORD: 1
             # MYSQL_ROOT_HOST: "%"
             MYSQL_DATABASE: my_dbname
-            MYSQL_USER: root
+            # MYSQL_USER: root
             MYSQL_PASSWORD: secret
             MYSQL_ROOT_PASSWORD: secret
             SERVICE_TAGS: dev

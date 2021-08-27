@@ -10,3 +10,10 @@ COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr
 RUN install-php-extensions gd pdo_mysql bcmath zip intl opcache
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
+
+RUN groupadd --gid 1000 appuser \
+    && useradd --uid 1000 -g appuser \
+    -G www-data,root --shell /bin/bash \
+    --create-home appuser
+
+USER appuser

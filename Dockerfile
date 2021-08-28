@@ -17,3 +17,8 @@ RUN groupadd --gid 1000 appuser \
     --create-home appuser
 
 USER appuser
+
+RUN echo 'alias pa="php artisan"' >> ~/.bashrc
+
+RUN git config --global user.email "kareem.khalfalla.dev@gmail.com"
+RUN git config --global user.name "Kareem"

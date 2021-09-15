@@ -21,4 +21,4 @@ USER appuser
 RUN echo 'alias pa="php artisan"' >> ~/.bashrc
 
 RUN git config --global user.email "kareem.khalfalla.dev@gmail.com"
-RUN git config --global user.name "Kareem"
+RUN git config --global user.name "Kareem Khalfalla"
